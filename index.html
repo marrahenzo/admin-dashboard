@@ -6,8 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&family=Open+Sans:wght@300;600&family=Radio+Canada:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Admin Dashboard</h1>
+    <div id="container">
+      <div id="sidebar">
+        <h1>Logo Dashboard</h1>
+        <p><a href="#">Home</a></p>
+        <p><a href="#">Profile</a></p>
+        <p><a href="#">Messages</a></p>
+        <p><a href="#">History</a></p>
+        <p><a href="#">Tasks</a></p>
+        <p><a href="#">Communities</a></p>
+        <p><a href="#">Settings</a></p>
+        <p><a href="#">Support</a></p>
+        <p><a href="#">Privacy</a></p>
+      </div>
+      <div id="header">
+        <div id="search-bar">
+          Logo<input type="search" name="search" id="search" />
+        </div>
+        <div id="profile">
+          Bell
+          <img
+            src="./media/profile.jpg"
+            alt="profile picture"
+            width="50"
+            id="profile-picture"
+          />
+          Hernán Marrapodi
+        </div>
+        <div id="welcome"></div>
+        <div id="buttons"></div>
+      </div>
+      <div id="main-content">
+        <div id="projects">projects</div>
+        <div id="announcements">announcements</div>
+        <div id="trending">trending</div>
+      </div>
+    </div>
   </body>
 </html>
