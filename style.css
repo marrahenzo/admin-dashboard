@@ -352,3 +352,9 @@ footer {
 #credits a {
   text-decoration: none;
 }
+
+#copyright img {
+  position: relative;
+  bottom: -5px;
+  padding-left: 5px;
+}
