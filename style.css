@@ -186,6 +186,13 @@ body {
   box-shadow: 1px 1px 10px;
 }
 
+.project a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #81dc26;
+  margin-top: 20px;
+}
+
 .project .sideline {
   padding-left: 10px;
   width: 5px;
